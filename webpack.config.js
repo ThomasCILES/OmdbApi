@@ -28,6 +28,8 @@ Encore
     .enableSassLoader()
     .enablePostCssLoader()
 
+    .enableVueLoader()
+
     // allow legacy applications to use $/jQuery as a global variable
     //.autoProvidejQuery()
     .enableSourceMaps(false)
