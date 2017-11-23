@@ -1,8 +1,21 @@
 {
   "name": "OmdbApi",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:ThomasCILES/OmdbApi.git",
   "author": "Thomas CILES <thomas.ciles.perso@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.17.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6"
+  },
+  "scripts": {
+    "build:prod": "encore production",
+    "build:dev": "encore dev",
+    "build:dev-server": "encore dev-server",
+    "build:dev-watch": "encore dev --watch"
+  }
 }
