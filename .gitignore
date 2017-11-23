@@ -7,3 +7,4 @@
 *.phar
 
 !/build/.gitkeep
+!/build/*.html

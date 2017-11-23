@@ -18,7 +18,8 @@
   "scripts": {
     "build:prod": "encore production",
     "build:dev": "encore dev",
+    "build:dev-watch": "encore dev --watch",
     "build:dev-server": "encore dev-server",
-    "build:dev-watch": "encore dev --watch"
+    "build:dev-hot": "encore dev-server --hot"
   }
 }
