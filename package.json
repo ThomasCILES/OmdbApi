@@ -1,0 +1,8 @@
+{
+  "name": "OmdbApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ThomasCILES/OmdbApi.git",
+  "author": "Thomas CILES <thomas.ciles.perso@gmail.com>",
+  "license": "MIT"
+}
