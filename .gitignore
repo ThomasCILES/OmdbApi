@@ -8,3 +8,5 @@
 
 !/build/.gitkeep
 !/build/*.html
+
+/src/js/parameters.js
